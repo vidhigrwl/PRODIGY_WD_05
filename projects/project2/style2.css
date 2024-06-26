@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(67, 46, 46);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(161, 62, 67);
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+h1{
+    padding:30px 680px ;
+    color: #ccc;
+}
+
+.x-mark {
+    color: #fdf3f1; /* Change X color to orange */
+}
+
+.o-mark {
+    color: #d5d9dd; /* Change O color to blue */
+}
